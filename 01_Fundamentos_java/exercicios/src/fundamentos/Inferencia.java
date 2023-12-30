@@ -20,7 +20,8 @@ public class Inferencia {
 		c = "outro texto" ;
 		System.out.println(c);
 		
-		
+		/* Após o tipo ser atribuido na variavel,
+		não é possivel colocar outro tipo */ 
 	
 	}
 }
