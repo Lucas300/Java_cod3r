@@ -1,6 +1,6 @@
 package fundamentos;
 
-import java.util.Date;
+import java.util.Date; //importação é sempre fora da classe
 
 public class Import {
 
@@ -8,7 +8,7 @@ public class Import {
 		String s = "Bom dia! ";
 		System.out.println(s);
 		
-		Date d = new Date();
+		Date d = new Date(); //Ctrl + espaço para opções de importação
 		System.out.println(d);
 	}
 
