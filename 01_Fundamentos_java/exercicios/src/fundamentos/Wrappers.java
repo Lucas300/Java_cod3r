@@ -17,8 +17,8 @@ public class Wrappers {
 		Boolean bo = Boolean.parseBoolean("true"); 
 		
 		/*
-		System.out.printf("Digite um numero para ver a multiplicação por 2: ");
-		Integer i = Integer.parseInt(entrada.next()); //recebendo e convertendo uma string em um valor inteiro
+			System.out.printf("Digite um numero para ver a multiplicação por 2: ");
+			Integer i = Integer.parseInt(entrada.next()); //recebendo e convertendo uma string em um valor inteiro
 		*/
 		
 		System.out.println(b.byteValue());
