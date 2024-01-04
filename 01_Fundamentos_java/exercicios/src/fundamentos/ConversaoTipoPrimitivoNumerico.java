@@ -17,8 +17,8 @@ public class ConversaoTipoPrimitivoNumerico {
 		System.out.println(d);//conversão explícita
 		
 		double f = 1.9999;
-		int g = (int)f;
-		System.out.println(g);
+		int g = (int)f; // conversão explícita
+		System.out.println(g); //vai perder o número depois da virgula  
 		
 	}
 
