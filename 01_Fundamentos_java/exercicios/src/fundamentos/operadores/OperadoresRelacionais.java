@@ -13,7 +13,7 @@ public class OperadoresRelacionais {
 		System.out.println(3 <= 7);//menor ou igual
 		System.out.println(3 != 7);//diferente
 		
-		double nota = 6.4;
+		double nota = 7.4;
 		boolean bomComportamento = true;
 		boolean passouPorMedia = nota>=7;
 		boolean temDesconto = bomComportamento &&  passouPorMedia;
