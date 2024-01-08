@@ -10,10 +10,10 @@ public class Operadores {
 		// * / % + -
 		
 		
-		//Aritimeticos
-		//Relacionais 
-		//Lógicos
-		//Atribuição
+		//Aritimeticos * / % + -
+		//Relacionais  && || ^ !
+		//Lógicos      > < =
+		//Atribuição ++
 
 	}
 
