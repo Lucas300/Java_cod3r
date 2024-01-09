@@ -2,7 +2,7 @@ package fundamentos.exerciciosFinais;
 
 import java.util.Scanner;
 
-public class Exercicio1_Temperatura {
+public class Exercicio1_TemperaturaFparaC {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
