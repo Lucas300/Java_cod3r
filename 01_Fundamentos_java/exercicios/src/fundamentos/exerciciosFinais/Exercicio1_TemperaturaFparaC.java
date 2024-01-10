@@ -10,7 +10,7 @@ public class Exercicio1_TemperaturaFparaC {
 		double f = entrada.nextDouble();
 		
 		double c = (f - 32)*(5.0/9.0);
-		System.out.printf("A temperatura em Celcius fica: %.2f", c);
+		System.out.printf("A temperatura em Celsius fica: %.2f", c);
 		
 		
 		

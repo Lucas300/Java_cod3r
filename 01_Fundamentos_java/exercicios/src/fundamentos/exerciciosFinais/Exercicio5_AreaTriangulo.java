@@ -16,7 +16,7 @@ public class Exercicio5_AreaTriangulo {
 		
 		System.out.printf("A area do triangulo é: %.2f",area);
 		
-		
+		entrada.close();
 
 	}
 
