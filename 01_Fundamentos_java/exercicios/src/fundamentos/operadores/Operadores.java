@@ -12,7 +12,7 @@ public class Operadores {
 		
 		//Aritimeticos * / % + -
 		//Relacionais  && || ^ !
-		//Lógicos      > < =
+		//Lógicos      > < == 
 		//Atribuição  ++ =
 
 	}
