@@ -1,4 +1,4 @@
-package estruturas_de_controle;
+package estruturas_repeticao;
 
 import java.util.Scanner;
 
