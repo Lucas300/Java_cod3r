@@ -21,6 +21,23 @@ public class SwitchSemBreak {
 			System.out.println("Sei o heian Nidan");
 		case "amarela":
 			System.out.println("Sei o heian Shodan");
+			break;
+		default:
+			System.out.println("Não sei nada");
+		}
+		System.out.println(" ");
+		
+		int idade =2 ;
+		
+		switch(idade) {
+		case 3:
+			System.out.println("Sabe programar");
+		case 2:
+			System.out.println("Sabe falar");
+		case 1:
+			System.out.println("Sabe andar");
+		case 0:
+			System.out.println("Sabe Respirar");
 		}
 
 	}
