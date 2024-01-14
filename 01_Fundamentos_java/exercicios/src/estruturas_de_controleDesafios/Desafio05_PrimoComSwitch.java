@@ -2,7 +2,7 @@ package estruturas_de_controleDesafios;
 
 import java.util.Scanner;
 
-public class Desafio05_AdivinheONumero {
+public class Desafio05_PrimoComSwitch {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		//(n%n==0 && n%1==0 && !(n%2==0)&& !(n%3==0) && !(n%5==0) && !(n%7==0) && !(n%9==0))||(n== 2 ||  n ==3 || n==5 || n==7 )
