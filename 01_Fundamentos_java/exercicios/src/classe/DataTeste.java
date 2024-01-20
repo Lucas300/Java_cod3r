@@ -6,15 +6,16 @@ public class DataTeste {
 		var data1 = new Data();
 		data1.ano = 2000;
 		data1.dia =13;
-		data1.mes = "Maio";
+		data1.mes = 4;
 		
 		Data data2 = new Data();
 		data2.ano = 1980;
 		data2.dia = 11;
-		data2.mes = "Janeiro";
+		data2.mes = 7;
 		
-		System.out.printf("Eu nasci dia %d de %s de %d\n",data1.dia,data1.mes,data1.ano);
-		System.out.printf("Minha mãe nasceu dia %d de %s de %d",data2.dia,data2.mes,data2.ano);
+		
+		System.out.println(data1.obterDataFormatada());
+		System.out.println(data2.obterDataFormatada());
 
 	}
 
