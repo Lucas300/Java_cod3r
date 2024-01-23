@@ -11,11 +11,13 @@ public class ProdutoTeste {
 		p2.nome = "Caneta Preta";
 		p2.preco = 12.56;
 		
+		//modificando o desconto no atributo da classe
+		Produto.desconto = 0.50;
 		
-		System.out.println(p1.nome);
-		System.out.println(p2.nome);
+		System.out.println(p1.nome +" " + p1.precoComDesconto());
+		System.out.println(p2.nome +" " + p2.precoComDesconto());
 
-		Produto.desconto = 0.34;
+		System.out.println("Desconto: "+(Produto.desconto*100)+"%");
 		
 		double precofinal1 = p1.precoComDesconto();
 		double precofinal2 = p2.precoComDesconto(0.1);
