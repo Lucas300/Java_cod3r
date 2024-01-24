@@ -1,4 +1,8 @@
 package classe;
+// É importante que a definição das variaveis e constântes 
+// seja junto com os atributos da classe. as variaveis criadas
+// dentro dos métodos só podem ser acessadas dentro do próprio
+// método
 
 public class Data {
 	int dia;
@@ -20,7 +24,7 @@ public class Data {
 		 this.mes = mes;
 		 this.ano = ano;
 	}
-
+	
 	String obterDataFormatada() {
 		final String formato = "%d/%d/%d";
 		return String.format(formato,this.dia,mes,ano);
@@ -30,3 +34,5 @@ public class Data {
 		System.out.printf(obterDataFormatada());
 	} 
 }
+
+
