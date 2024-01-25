@@ -13,10 +13,11 @@ public class Pessoa {
 		this.nome = nome;
 		this.peso = peso;
 	}
-	double comer(Comida comida) {
-		double pesoF = peso;
-		pesoF += comida.pesoComida;
-		return pesoF;
+	void comer(Comida comida) {
+		this.peso += comida.pesoComida;
+	}
+	String apresentar() {
+		return "O " + nome + " tinha o peso de:" + peso + " Kg";
 	}
 	
 }
