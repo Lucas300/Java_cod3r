@@ -25,7 +25,9 @@ public class Conjuto_Homogenio {
 		nums.add(2);
 		nums.add(3);
 		nums.add(4);
-
+		
+		// nums.get(2); não é possivel acessar pelo indice
+		
 		for (Integer integer : nums) {
 			System.out.println(integer);
 		}
