@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.alunos.cursos_N_N;
 
 public class AlunoTeste {
 

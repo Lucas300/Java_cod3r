@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.compra.item_1_N;
 
 import java.util.ArrayList;
 

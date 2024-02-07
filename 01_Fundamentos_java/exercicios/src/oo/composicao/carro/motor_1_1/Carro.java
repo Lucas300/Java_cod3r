@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.carro.motor_1_1;
 
 public class Carro {
 	 Motor motor = new Motor(); // atributo de instância 
