@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class ExercicioVetorAltura {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat("0.00");
